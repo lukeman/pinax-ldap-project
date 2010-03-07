@@ -5,6 +5,9 @@ import os.path
 import posixpath
 import pinax
 
+import ldap
+from django_auth_ldap.config import LDAPSearch
+
 PINAX_ROOT = os.path.abspath(os.path.dirname(pinax.__file__))
 PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
 
